@@ -64,12 +64,7 @@ const VideoCards = () => {
           {postLists?.map((video,index)=>(
 
           <div
-            // onMouseEnter={() => {
-            //   playVideo(index);
-            // }}
-            // onMouseLeave={() => {
-            //   reloadVideo(index);
-            // }}
+            
             onClick={() => {
               handleClickVideo(video.videoUrl, video._id);
             }}
